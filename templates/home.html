@@ -1,0 +1,57 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+</head>
+<body>
+    <div id="board" {{classValue}}>
+        <table border="0" cellspacing="0" cellpadding="0">
+            <form action="playing" method="post">
+                {% csrf_token %}
+                <tr>
+                    <td class="box">{{btn1|safe}}</td>
+                    <td class="verticleLine"></td>
+                    <td class="box">{{btn2|safe}}</td>
+                    <td class="verticleLine"></td>
+                    <td class="box">{{btn3|safe}}</td>
+                </tr>
+                <tr>
+                    <td class="horizontolLine"></td>
+                    <td class="intersection"></td>
+                    <td class="horizontolLine"></td>
+                    <td class="intersection"></td>
+                    <td class="horizontolLine"></td>
+                </tr>
+                <tr>
+                    <td class="box">{{btn4|safe}}</td>
+                    <td class="verticleLine"></td>
+                    <td class="box">{{btn5|safe}}</td>
+                    <td class="verticleLine"></td>
+                    <td class="box">{{btn6|safe}}</td>
+                </tr>
+                <tr>
+                    <td class="horizontolLine"></td>
+                    <td class="intersection"></td>
+                    <td class="horizontolLine"></td>
+                    <td class="intersection"></td>
+                    <td class="horizontolLine"></td>
+                </tr>
+                <tr>
+                    <td class="box">{{btn7|safe}}</td>
+                    <td class="verticleLine"></td>
+                    <td class="box">{{btn8|safe}}</td>
+                    <td class="verticleLine"></td>
+                    <td class="box">{{btn9|safe}}</td>
+                </tr>
+            </form>
+        </table>
+    </div>
+    {{again|safe}}
+</body>
+</html>

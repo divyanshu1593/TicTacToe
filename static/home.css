@@ -1,0 +1,63 @@
+#board{
+    position: absolute;
+    top: 20vh;
+    left: 70vh;
+}
+
+.box{
+    width: 15vh;
+    height: 15vh;
+}
+
+.verticleLine{
+    width: 2vh;
+    height: 15vh;
+    background-color: black;
+}
+
+.horizontolLine{
+    width: 15vh;
+    height: 2vh;
+    background-color: black;
+}
+
+.intersection{
+    width: 2vh;
+    height: 2vh;
+    background-color: black;
+}
+
+.boxes{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: none;
+    color: white;
+}
+
+
+#resultText{
+    font-size: 5em;
+    font-weight: 900;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+
+#resetBtn{
+    position: absolute;
+    top: 75%;
+    font-size: 2em;
+    left: 40%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#resetBtn:hover{
+    box-shadow: 0px 0px 20px;
+}
+
+.blur{
+    opacity: 40%;
+}

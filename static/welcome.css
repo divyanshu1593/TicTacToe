@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+}
+
+.logo{
+    color: white;
+    font-size: 8vh;
+    font-family: cursive;
+    font-weight: 1000;
+    text-shadow: 3px 3px 7px white;
+}
+
+#tic{
+    color: red;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+
+#tac{
+    color: green;
+    position: absolute;
+    top: 25%;
+    left: 44.5%;
+}
+
+#toe{
+    color: blue;
+    position: absolute;
+    top: 25%;
+    left: 55%;
+}
+
+#btn{
+    position: absolute;
+    top: 55%;
+    left: 44%;
+    width: 8%;
+    height: 7%;
+    border-radius: 10%;
+    font-size: 2em;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+#btn:hover{
+    width: 8.5%;
+    height: 7.5%;
+    left: 43.7%;
+    top: 54.7%;
+    box-shadow: 0px 0px 2px whitesmoke;
+}
