@@ -61,3 +61,67 @@
 .blur{
     opacity: 40%;
 }
+
+#navbar{
+    background-color: rgb(121, 119, 119);
+    position: relative;
+    height: 40px;
+    overflow: hidden;
+    padding: 0px 15px;
+}
+
+.navbarIcons{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+}
+
+.navbarIcons:hover{
+    background-color: rgb(252, 253, 253);
+    color: black;
+}
+
+#loginIcon{
+    float: right;
+    text-align: center;
+    height: 100%;
+    padding: 5px 30px;
+}
+
+#homeIcon{
+    float: left;
+    text-align: center;
+    height: 100%;
+    padding: 5px 3px;
+}
+
+#aboutIcon{
+    float: right;
+    text-align: center;
+    height: 100%;
+    padding: 5px 3px;
+}
+
+body{
+    margin: 0px;
+}
+
+#comqpScore{
+    border: 1px solid red;
+    position: absolute;
+    top: 40px;
+    height: 93%;
+    width: 30%;
+    background-color: rgb(185, 185, 185);
+}
+
+#usqerScore{
+    border: 1px solid red;
+    position: absolute;
+    top: 40px;
+    height: 93%;
+    width: 30%;
+    right: 0%;
+    background-color: grey;
+}
+

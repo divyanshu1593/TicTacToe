@@ -10,6 +10,14 @@
     <link rel="stylesheet" href="{% static 'home.css' %}">
 </head>
 <body>
+    <div id="navbar">
+        <a href="welcome" id="homeIcon" class="navbarIcons">Home</a>
+        <a href="aboutus" id="aboutIcon" class="navbarIcons">about us</a>
+        {{navbarLogin|safe}}
+    </div>
+    <div id="compScore">
+        
+    </div>
     <div id="board" {{classValue}}>
         <table border="0" cellspacing="0" cellpadding="0">
             <form action="playing" method="post">
@@ -51,6 +59,9 @@
                 </tr>
             </form>
         </table>
+    </div>
+    <div id="userScore">
+        
     </div>
     {{again|safe}}
 </body>
